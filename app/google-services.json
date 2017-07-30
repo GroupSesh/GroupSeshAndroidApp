@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "890233627693",
+    "project_id": "groupsesh-175013"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890233627693:android:3216edc8c2239d5f",
+        "android_client_info": {
+          "package_name": "com.android.groupsesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890233627693-h8ihtj9uvk7npcpl92m40qheu0g9t61u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbjQNdfBfMqwG8uIUqwjlmmWeVw0S3hEc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

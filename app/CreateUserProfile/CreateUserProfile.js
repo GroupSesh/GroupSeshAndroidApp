@@ -48,7 +48,7 @@ export default class CreateUserProfile extends Component{
                 activeOpacity={0.7}>
 
                   <View style={styles.firstPicture}>
-                    <ProfilePic style={styles.profilepic} source={require('./BlankAvatar.png')}/>
+                    <ProfilePic style={styles.profilepic} source={require('../Global/Pictures/BlankAvatar.png')}/>
                 </View>
               </TouchableHighlight>
 
@@ -57,7 +57,7 @@ export default class CreateUserProfile extends Component{
               underlayColor="white"
               activeOpacity={0.7}>
                 <View style={styles.secondPicture}>
-                  <ProfilePic style={styles.profilepic} source={require('./BlankAvatar.png')}/>
+                  <ProfilePic style={styles.profilepic} source={require('../Global/Pictures/BlankAvatar.png')}/>
                 </View>
               </TouchableHighlight>
 
@@ -66,7 +66,7 @@ export default class CreateUserProfile extends Component{
               underlayColor="white"
               activeOpacity={0.7}>
                 <View style={styles.thirdPicture}>
-                  <ProfilePic style={styles.profilepic} source={require('./BlankAvatar.png')}/>
+                  <ProfilePic style={styles.profilepic} source={require('../Global/Pictures/BlankAvatar.png')}/>
                 </View>
               </TouchableHighlight>
               </View>

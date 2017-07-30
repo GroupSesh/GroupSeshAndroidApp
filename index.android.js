@@ -6,16 +6,16 @@ import {
   Image
 } from 'react-native';
 
-import NewsFeed from './app/NewsFeed/NewsFeed';
+import CreateGroupProfile from './app/CreateSeshProfile/CreateSeshProfile';
 
-export default class GroupSeshGood extends Component {
+export default class pleasework extends Component {
   render() {
     return (
       <View>
-      <NewsFeed/>
+      <CreateSeshProfile/>
       </View>
     );
   }
 }
 
-AppRegistry.registerComponent('GroupSeshGood', () => GroupSeshGood);
+AppRegistry.registerComponent('pleasework', () => pleasework);
