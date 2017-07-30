@@ -35,7 +35,7 @@ const SAMPLE_REGION = {
 };
 const screenWidth = Dimensions.get('window').width;
 const screenHeight = Dimensions.get('window').height;
-export default class CreateSeshProfile extends Component{
+export default class CreateGroupProfile extends Component{
   constructor(props){
     super(props);
     this.state={
@@ -283,4 +283,4 @@ const styles = StyleSheet.create ({
   },
 })
 
-AppRegistry.registerComponent('CreateSeshProfile', () => CreateSeshProfile);
+AppRegistry.registerComponent('CreateGroupProfile', () => CreateGroupProfile);
